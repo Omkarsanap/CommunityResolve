@@ -1,0 +1,44 @@
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    background-color: #ffffff;
+    color: #4A4A4A;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Style for form */
+form {
+    background-color: #DCE3F4;
+    max-width: 850px;
+    margin: 40px auto;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for button */
+.button {
+    background-color: #EF8354;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Style for button hover */
+.button:hover {
+    background-color: #E57A44;
+}
+
+/* Style for error message */
+.error {
+    color: #C3447A;
+}
+
+/* Style for success message */
+.success {
+    color: #88B04B;
+}
