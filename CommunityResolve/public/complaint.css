@@ -1,0 +1,65 @@
+body {
+    background-color: #f9f9f9; /* Light gray background */
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.95); /* Slightly more opaque white */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button:hover {
+    background-color: #45a049; /* Darker green */
+    transform: translateY(-2px);
+}
+
+.labelsize {
+    font-weight: bold;
+}
+
+.symbol {
+    margin-right: 8px;
+}
+
+.sub-topic {
+    display: none;
+    margin-top: 10px;
+}
+
+.text-red-500 {
+    color: red;
+}
+
+input, select, textarea {
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #4CAF50; /* Green */
+    outline: none;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5); /* Light green shadow */
+}
+
+input, select, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 5px;
+}
